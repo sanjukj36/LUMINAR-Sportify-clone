@@ -156,7 +156,7 @@ body {
   overflow: hidden;
 }
 .spotify-playlists .list .item {
-  min-width: 140px;
+  min-width: 175px;
   width: 160px;
   padding: 15px;
   background-color: #181818;

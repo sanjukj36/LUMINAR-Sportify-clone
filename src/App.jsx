@@ -143,11 +143,11 @@ function App() {
             </div>
 
             <div className="item">
-              <img src="https://i.scdn.co/image/ab67706f000000027da11e4e02c0da2f543ea20f" />
+              <img src="https://i.scdn.co/image/ab67616d00001e02ae10485d194d9990c83734ae" />
               <div className="play">
                 <span className="fa fa-play"></span>
               </div>
-              <h4>Deep Sleep</h4>
+              <h4>Isolate</h4>
               <p>Soothing, minimalist ambient for deep sleep.</p>
             </div>
 
@@ -236,11 +236,11 @@ function App() {
             </div>
 
             <div className="item">
-              <img src="https://i.scdn.co/image/ab67706f000000027da11e4e02c0da2f543ea20f" />
+              <img src="https://i.scdn.co/image/ab67616d00001e0284c53fa832dfa265192419c5"/>
               <div className="play">
                 <span className="fa fa-play"></span>
               </div>
-              <h4>Deep Sleep</h4>
+              <h4>Mood (feat. iann dior)</h4>
               <p>Soothing, minimalist ambient for deep sleep.</p>
             </div>
 
