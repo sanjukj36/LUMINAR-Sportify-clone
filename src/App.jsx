@@ -62,13 +62,13 @@ function App() {
         <div className="policies">
           <ul>
             <li>
-              <a href="#">Legal</a><span style={{margin:"10px"}}><a href="#"> Privacy Center</a></span><span style={{margin:"10px"}}><a href="#">Privacy Policy</a></span>
+              <a href="#">Legal</a><span style={{ margin: "10px" }}><a href="#"> Privacy Center</a></span><span style={{ margin: "10px" }}><a href="#">Privacy Policy</a></span>
             </li>
             <li>
-            <a href="#">Cookies</a><span style={{margin:"10px"}}><a href="#"> About Ads</a></span><span style={{margin:"10px"}}><a href="#">Accessibility</a></span>
+              <a href="#">Cookies</a><span style={{ margin: "10px" }}><a href="#"> About Ads</a></span><span style={{ margin: "10px" }}><a href="#">Accessibility</a></span>
             </li>
             <li>
-            <a href="#">Cookies</a>
+              <a href="#">Cookies</a>
             </li>
           </ul>
         </div>
@@ -80,7 +80,7 @@ function App() {
             <button type="button" className="fa fas fa-chevron-left"></button>
             <button type="button" className="fa fas fa-chevron-right"></button>
           </div>
-          
+
 
           <div className="navbar">
             <ul>
@@ -143,6 +143,15 @@ function App() {
             </div>
 
             <div className="item">
+              <img src="https://i.scdn.co/image/ab67706f000000027da11e4e02c0da2f543ea20f" />
+              <div className="play">
+                <span className="fa fa-play"></span>
+              </div>
+              <h4>Deep Sleep</h4>
+              <p>Soothing, minimalist ambient for deep sleep.</p>
+            </div>
+
+            <div className="item">
               <img src="https://i.scdn.co/image/ab67706f00000002e3c324443862abeb46220f00" />
               <div className="play">
                 <span className="fa fa-play"></span>
@@ -150,7 +159,7 @@ function App() {
               <h4>White Noise 10 Hours</h4>
               <p>Ten hours long continuous white noise to help you... </p>
             </div>
-            
+
           </div>
         </div>
 
@@ -176,7 +185,16 @@ function App() {
             </div>
 
             <div className="item">
-              <img src="https://i.scdn.co/image/ab67706f0000000273dc8d3bb78ad5cae7382c1a"/>
+              <img src="https://i.scdn.co/image/ab67706f000000027da11e4e02c0da2f543ea20f" />
+              <div className="play">
+                <span className="fa fa-play"></span>
+              </div>
+              <h4>Deep Sleep</h4>
+              <p>Soothing, minimalist ambient for deep sleep.</p>
+            </div>
+
+            <div className="item">
+              <img src="https://i.scdn.co/image/ab67706f0000000273dc8d3bb78ad5cae7382c1a" />
               <div className="play">
                 <span className="fa fa-play"></span>
               </div>
@@ -185,7 +203,7 @@ function App() {
             </div>
 
             <div className="item">
-              <img src="https://i.scdn.co/image/ab67706f0000000274fff2139c75c7083370e10c"/>
+              <img src="https://i.scdn.co/image/ab67706f0000000274fff2139c75c7083370e10c" />
               <div className="play">
                 <span className="fa fa-play"></span>
               </div>
@@ -218,7 +236,16 @@ function App() {
             </div>
 
             <div className="item">
-              <img src="https://i.scdn.co/image/ab67616d00001e02c6ad2b2b62b581a23a7c1759"/>
+              <img src="https://i.scdn.co/image/ab67706f000000027da11e4e02c0da2f543ea20f" />
+              <div className="play">
+                <span className="fa fa-play"></span>
+              </div>
+              <h4>Deep Sleep</h4>
+              <p>Soothing, minimalist ambient for deep sleep.</p>
+            </div>
+
+            <div className="item">
+              <img src="https://i.scdn.co/image/ab67616d00001e02c6ad2b2b62b581a23a7c1759" />
               <div className="play">
                 <span className="fa fa-play"></span>
               </div>
@@ -227,7 +254,7 @@ function App() {
             </div>
 
             <div className="item">
-              <img src="https://i.scdn.co/image/ab67706f0000000286bcb2887768d506cded7cd3"/>
+              <img src="https://i.scdn.co/image/ab67706f0000000286bcb2887768d506cded7cd3" />
               <div className="play">
                 <span className="fa fa-play"></span>
               </div>
@@ -255,12 +282,63 @@ function App() {
 
           </div>
 
-          <hr/>
           {/* footer */}
 
           <div className='starting'>
-           
+            <div style={{ height: "300px" }} className="container mt-5 w-100">
+              <div className="footer-content d-flex justify-content-between">
+                
+                <div className="links d-flex flex-column">
+                  <h5 className='mb-3'>Company</h5>
+                              
+                
+                  <a href='/' target='_blank' style={{ textDecoration: "none", color: "white" }}>About</a>
+                  <a href='/' target='_blank' style={{ textDecoration: "none", color: "white" }}>Jobs</a>
+                  <a href='/' target='_blank' style={{ textDecoration: "none", color: "white" }}>For the Record</a>
+
+                </div>
+                <div className="guides d-flex flex-column">
+                  <h5 className='mb-3'>Communities</h5>
+
+                  <a href='/' target='_blank' style={{ textDecoration: "none", color: "white" }}>For Artists</a>
+                  <a href='/' target='_blank' style={{ textDecoration: "none", color: "white" }}>Developers</a>
+                  <a href='/' target='_blank' style={{ textDecoration: "none", color: "white" }}>Advertising </a>
+                  <a href='/' target='_blank' style={{ textDecoration: "none", color: "white" }}>Investors </a>
+                  <a href='/' target='_blank' style={{ textDecoration: "none", color: "white" }}>Vendors </a>
+
+                </div>
+
+                <div className="contact d-flex flex-column">
+
+
+                  <h5 className='mb-3'>Useful links</h5>
+                  <a href='/' target='_blank' style={{ textDecoration: "none", color: "white" }}>Support</a>
+                  <a href='/' target='_blank' style={{ textDecoration: "none", color: "white" }}>Free Mobile App</a>
+                  
+                </div>
+                <div className="guides d-flex flex-column">
+                  
+                </div>
+
+                <div className="guides d-flex flex-column">
+                  
+                  <div className='d-flex me-5 mt-4' style={{fontSize:"25px"}}>
+                  <i class="bg-create fa-brands fa-instagram  me-5"></i>
+                  <i class="bg-create fa-brands fa-twitter  me-5"></i>
+                  <i class="bg-create fa-brands fa-facebook "></i>
+                  </div>
+
+                </div>
+
+              </div>
+              <hr />
+              <p className='mt-5'>© 2024 Spotify AB</p>
+
+            </div>
+
+
           </div>
+
           {/* footer-end */}
         </div>
 
